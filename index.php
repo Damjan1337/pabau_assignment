@@ -33,6 +33,19 @@
                     <label for="mobile">Mobile</label>
                     <input type="tel" id="mobile" name="mobile" required>
                 </div>
+                <div class="form-group">
+                    <label for="treatment_interest">Service Interest</label>
+                    <select id="treatment_interest" name="treatment_interest">
+                        <option value="">Select a service</option>
+                        <option value="Consultation">Consultation</option>
+                        <option value="Treatment">Treatment</option>
+                        <option value="Information">Information</option>
+                    </select>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="opt_email" name="opt_email" value="1">
+                    <label for="opt_email">Subscribe to email updates</label>
+                </div>
                 <button type="submit" class="submit-btn">Submit</button>
             </form>
         </section>

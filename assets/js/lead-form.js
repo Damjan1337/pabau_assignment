@@ -10,7 +10,9 @@ jQuery(document).ready(function ($) {
             first_name: $('#first_name').val(),
             last_name: $('#last_name').val(),
             email: $('#email').val(),
-            mobile: $('#mobile').val()
+            mobile: $('#mobile').val(),
+            treatment_interest: $('#treatment_interest').val(),
+            opt_email: $('#opt_email').is(':checked') ? '1' : '0'
         };
 
         $.ajax({
