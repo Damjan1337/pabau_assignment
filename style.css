@@ -6,7 +6,6 @@ Version: 1.0.1
 Text Domain: simple-lead-theme
 */
 
-/* Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +26,6 @@ body {
   padding: 0 15px;
 }
 
-/* Header */
 .site-header {
   background-color: #2d5d8b;
   padding: 20px 0;
@@ -74,7 +72,6 @@ body {
   color: #e0e0e0;
 }
 
-/* Main Content */
 .site-main {
   padding: 40px 0;
 }
@@ -113,7 +110,6 @@ section {
   margin-bottom: 20px;
 }
 
-/* Form Styles */
 .lead-form-section {
   background-color: #fff;
   border-radius: 8px;
@@ -183,7 +179,6 @@ input:focus {
   cursor: not-allowed;
 }
 
-/* Success/Error messages */
 #form-response {
   padding: 15px;
   border-radius: 4px;
@@ -204,7 +199,6 @@ input:focus {
   border: 1px solid #f5c6cb;
 }
 
-/* Footer */
 .site-footer {
   background-color: #2d5d8b;
   color: #fff;
@@ -213,7 +207,6 @@ input:focus {
   margin-top: 40px;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .site-branding,
   .main-navigation {
@@ -253,7 +246,6 @@ input:focus {
   }
 }
 
-/* Clear fix */
 .clearfix::after {
   content: "";
   clear: both;

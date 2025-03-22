@@ -20,6 +20,3 @@ The theme is pre-configured with the following API details:
 - URL: uk2.pabau.me
 - API Key: MTUyMTc5c6555c14e129a73a29c7cfd29ecd593
 
-## Database Export
-
-A database export file is included in the repository for easy setup.
